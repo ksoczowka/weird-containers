@@ -6,9 +6,6 @@ namespace ks {
 template<typename _T1, typename _T2, typename _T3>
 struct tripple {
  public:
-    typedef _T1 first_type;
-    typedef _T2 second_type;
-    typedef _T3 third_type;
     _T1 first;
     _T2 second;
     _T3 third;

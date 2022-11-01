@@ -18,7 +18,7 @@ struct tripple {
         this->third = other.third;
     }
     bool operator==(const tripple<_T1, _T2, _T3>& other) {
-        if(first == other.first && second = other.second && third == other.third) {
+        if(first == other.first && second == other.second && third == other.third) {
             return true;
         } else {
             return false;

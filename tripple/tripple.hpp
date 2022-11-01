@@ -18,7 +18,11 @@ struct tripple {
         this->third = other.third;
     }
     bool operator==(const tripple<_T1, _T2, _T3>& other) {
-        if(this->first)
+        if(first == other.first && second = other.second && third == other.third) {
+            return true;
+        } else {
+            return false;
+        }
     }
 };
 template<typename _T1, typename _T2, typename _T3>

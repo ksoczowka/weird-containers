@@ -2,7 +2,7 @@
 #include <bits/move.h> // for std::forward
 #include <type_traits> // for __decay_and_strip
 
-namespace weird {
+namespace ks {
 template<typename _T1, typename _T2, typename _T3>
 struct tripple {
  public:

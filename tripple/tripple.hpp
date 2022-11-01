@@ -4,7 +4,7 @@
 
 namespace ks {
 template<typename _T1, typename _T2, typename _T3>
-struct tripple {
+class tripple {
  public:
     _T1 first;
     _T2 second;

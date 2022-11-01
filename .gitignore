@@ -31,5 +31,10 @@
 *.out
 *.app
 
+# vscode shit
+.vscode/
+
 # Headers only
 *.cpp
+
+# Get main.cpp out
